@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aquib Z Ahmad — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="topbar container">
+        <div class="brand">Aquib<span>.dev</span></div>
+        <nav>
+            <button id="menuToggle" class="hamburger">☰</button>
+            <ul id="navLinks" class="nav">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container layout">
+        <aside class="panel panel--left">
+            <div class="panel__section">
+                <h2 class="panel__title">Aquib Z Ahmad</h2>
+                <p class="muted">Web & Mobile Developer</p>
+            </div>
+
+            <div class="panel__section">
+                <h3>Education</h3>
+                <ul class="list">
+                    <li><strong>B.Tech CSE (Data Science)</strong> — VCET (2023–2027)</li>
+                    <li><strong>HSC Science</strong> — Royal College (2021–2023)</li>
+                    <li><strong>SSC</strong> — St. Xavier’s (2020–2021)</li>
+                </ul>
+            </div>
+
+            <div class="panel__section">
+                <h3>Skills</h3>
+                <div class="chips">
+                    <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+                    <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">MongoDB</span>
+                    <span class="chip">Flutter</span><span class="chip">PHP</span>
+                </div>
+            </div>
+
+            <div class="panel__section">
+                <h3>Contact</h3>
+                <ul class="list">
+                    <li><a href="mailto:aquib@example.com">aquib@example.com</a></li>
+                    <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="panel panel--right">
+            <section id="home" class="card hero">
+                <div>
+                    <h1>Hi, I'm Aquib</h1>
+                    <p class="subtitle">Web Developer | Mobile App Developer | Full Stack Enthusiast</p>
+                </div>
+                <a href="#works" class="btn">See My Work</a>
+            </section>
+
+            <section id="about" class="card">
+                <h2>About Me</h2>
+                <p>
+                    Eager to contribute by delivering high-quality, efficient, and innovative software solutions
+                    using expertise in full-stack web development, mobile app development, and API integration.
+                    Dedicated to applying technical skills to impactful projects while continuously expanding knowledge
+                    through hands-on problem-solving and collaboration.
+                </p>
+            </section>
+
+            <section id="works" class="card">
+                <h2>Recent Works</h2>
+                <div class="works">
+                    <article class="work">
+                        <img src="assets/images/ResponsiveLandingPage.jpg" alt="Responsive Landing Page"
+                            class="thumb" />
+                        <div class="work__body">
+                            <h3>Responsive Landing Page</h3>
+                            <p>Task 1 from Prodigy Internship.</p>
+                            <a href="#" class="link">View →</a>
+                        </div>
+                    </article>
+                    <article class="work">
+                        <img src="assets/images/StopwatchWebApp.jpg" alt="Stopwatch Web App" class="thumb" />
+                        <div class="work__body">
+                            <h3>Stopwatch Web App</h3>
+                            <p>Task 2 from Prodigy Internship.</p>
+                            <a href="#" class="link">View →</a>
+                        </div>
+                    </article>
+                    <article class="work">
+                        <img src="assets/images/TicTacToeGame.jpg" alt="Tic Tac Toe Game" class="thumb" />
+                        <div class="work__body">
+                            <h3>Tic Tac Toe Game</h3>
+                            <p>Task 3 from Prodigy Internship.</p>
+                            <a href="#" class="link">View →</a>
+                        </div>
+                    </article>
+                    <article class="work">
+                        <img src="assets/images/WeatherApp.jpg" alt="Weather App" class="thumb" />
+                        <div class="work__body">
+                            <h3>Weather App</h3>
+                            <p>Task 4 from Prodigy Internship.</p>
+                            <a href="#" class="link">View →</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="experience" class="card">
+                <h2>Experience</h2>
+                <p><strong>Prodigy Infotech — Web Development Intern</strong></p>
+                <p>Built responsive web apps including a landing page, stopwatch, tic-tac-toe game, and weather app
+                    using HTML, CSS, JavaScript, and APIs.</p>
+            </section>
+
+            <section id="contact" class="card">
+                <h2>Contact Me</h2>
+                <form class="contact">
+                    <input type="text" placeholder="Your name" required />
+                    <input type="email" placeholder="Your email" required />
+                    <textarea rows="4" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </section>
+
+            <footer class="footer">
+                © <span id="year"></span> Aquib Z Ahmad — All rights reserved.
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
